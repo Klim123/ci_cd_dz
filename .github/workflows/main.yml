@@ -49,5 +49,5 @@ jobs:
         uses: 'appleboy/telegram-action@master'
         with:
           to: ${{ secrets.TELEGRAM_CHAT_ID }}
-          token: ${{ secrets.token }}
-          args: New ver
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          args: New version published
